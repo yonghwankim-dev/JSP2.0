@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-    <%@ page buffer="8kb" autoFlush="false" %>
+    <%--글을 저장하는 코드가 위치 --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	application.log("로그 메시지 기록을 확인합니다.");
-
-%>
-로그 메시지를 기록합니다.
+<script language="JavaScript">
+	location.href = "<%= request.getContextPath()%>/Chapter7/11_2_list.jsp";
+</script>
 </body>
 </html>

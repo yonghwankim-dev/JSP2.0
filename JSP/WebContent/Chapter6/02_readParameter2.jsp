@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-    <%@ page buffer="8kb" autoFlush="false" %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	application.log("로그 메시지 기록을 확인합니다.");
-
-%>
-로그 메시지를 기록합니다.
+	<%/*name 파라미터의 값을 대문자로 변환하여 출력한다.
+		name 파라미터가 존재하지 않을 경우 예외가 발생한다.
+	*/ %>
+	name 파라미터 값 : <%= request.getParameter("name").toUpperCase() %>
 </body>
 </html>

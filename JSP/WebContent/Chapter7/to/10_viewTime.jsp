@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-    <%@ page buffer="8kb" autoFlush="false" %>
+    <%@ page import="java.util.Calendar" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +9,10 @@
 </head>
 <body>
 <%
-	application.log("로그 메시지 기록을 확인합니다.");
-
+	Calendar cal = (Calendar)request.getAttribute("time");
 %>
-로그 메시지를 기록합니다.
+현재 시간은 <%= cal.get(Calendar.HOUR) %>시
+	<%= cal.get(Calendar.MINUTE) %>분
+	<%= cal.get(Calendar.SECOND) %>초 입니다.
 </body>
 </html>
