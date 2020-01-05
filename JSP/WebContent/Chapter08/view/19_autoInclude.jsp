@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-    <%--글을 저장하는 코드가 위치 --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<script language="JavaScript">
-	location.href = "<%= request.getContextPath()%>/Chapter7/11_2_list.jsp";
-</script>
+현재 시간은 <%= CURRENT_TIME %> 입니다.
 </body>
-</html>
+</html>	

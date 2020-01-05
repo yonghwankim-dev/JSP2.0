@@ -9,7 +9,7 @@
 %>
 	
 <script>
-location.href = "<%= request.getContextPath()%>/Chapter7/12_2_receiveParam.jsp"+
+location.href = "<%= request.getContextPath()%>/Chapter07/12_2_receiveParam.jsp"+
 				"?num=<%= URLEncoder.encode(numberString)%>";
 </script>	
 	

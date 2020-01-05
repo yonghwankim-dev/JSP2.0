@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="<%= request.getContextPath() %>/Chapter7/05_view.jsp">
+<form action="<%= request.getContextPath() %>/Chapter07/05_view.jsp">
 보고싶은 페이지 선택:
 	<select name="code">
 		<option value="A">A페이지</option>

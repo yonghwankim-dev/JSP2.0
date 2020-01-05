@@ -9,7 +9,7 @@
 </head>
 <body>
 <%
-	String resourcePath = "/Chapter5/notice.txt";	//웹 어플리케이션 내에서의 경로 사용
+	String resourcePath = "/Chapter05/notice.txt";	//웹 어플리케이션 내에서의 경로 사용
 %>
 자원의 실제 경로:<br>
 <%= application.getRealPath(resourcePath)%>

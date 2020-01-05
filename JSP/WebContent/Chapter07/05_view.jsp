@@ -6,13 +6,13 @@
 	
 	if(code.equals("A"))
 	{
-		viewPageURI = "/Chapter7/viewModule/a.jsp";
+		viewPageURI = "/Chapter07/viewModule/a.jsp";
 	}else if(code.equals("B"))
 	{
-		viewPageURI = "/Chapter7/viewModule/b.jsp";
+		viewPageURI = "/Chapter07/viewModule/b.jsp";
 	}else if(code.equals("C"))
 	{
-		viewPageURI = "/Chapter7/viewModule/c.jsp";
+		viewPageURI = "/Chapter07/viewModule/c.jsp";
 	}
 	
 %>

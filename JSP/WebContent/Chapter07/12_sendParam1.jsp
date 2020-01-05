@@ -7,6 +7,6 @@
 	int number = random.nextInt();
 	String numberString = Integer.toString(number);
 	
-	response.sendRedirect(request.getContextPath()+"/Chapter7/12_2_receiveParam.jsp?num="+
+	response.sendRedirect(request.getContextPath()+"/Chapter07/12_2_receiveParam.jsp?num="+
 							URLEncoder.encode(numberString));
 %>
