@@ -20,9 +20,10 @@
 </td>
 
 <td width="300" valign="top">
-	이 부분은 layout2.jsp가 생성한다.<br>
+	<!-- 내용부분: 시작 -->
 	레이아웃1
 	<br><br><br>
+	<!-- 내용부분: 끝 -->
 </td>
 </tr>
 <td colspan="2">

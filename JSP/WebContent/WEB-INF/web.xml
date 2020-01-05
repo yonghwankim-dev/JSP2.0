@@ -24,4 +24,16 @@
 		<exception-type>java.lang.NullPointerException</exception-type>
 		<location>/Chapter6/error/errorNullPointer.jsp</location>
 	</error-page>
+	
+	<display-name>8장 예제</display-name>
+	<description>
+	8장의 예제 소스 코드 및 실행 코드
+	</description>
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>/Chapter8/view/*</url-pattern>
+			<include-prelude>/Chapter8/common/variable.jspf</include-prelude>
+			<include-coda>/Chapter8/common/footer.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config>
 </web-app>
