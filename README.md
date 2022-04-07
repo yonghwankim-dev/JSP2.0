@@ -4,5 +4,18 @@
 2. [\[JSP\] 1.2 JSP(Java Server Pages)에 대한 이해](https://yonghwankim-dev.tistory.com/274)
 3. [\[JSP\] 1.4 톰캣 환경 설정 및 톰캣 구동](https://yonghwankim-dev.tistory.com/275)
 
+### Chapter 2. JSP로 HTML 문서 생성하기
+
+1. [\[JSP\] 2.1~2 JSP 페이지의 구성 요소](https://yonghwankim-dev.tistory.com/276)
+2. [\[JSP\] 2.3 page 디렉티브](https://yonghwankim-dev.tistory.com/277)
+3. [\[JSP\] 2.4 스크립트 요소](https://yonghwankim-dev.tistory.com/278)
+4. [\[JSP\] 2.5 JSP 기본 객체 : request](https://yonghwankim-dev.tistory.com/279)
+5. [\[JSP\] 2.6 JSP 기본 객체 : response](https://yonghwankim-dev.tistory.com/280)
+
+
+
+
+
+
 
 
