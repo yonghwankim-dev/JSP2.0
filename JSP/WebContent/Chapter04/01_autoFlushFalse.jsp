@@ -1,16 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page buffer="1kb" autoFlush="false" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 
 	<% 
-	//ÀÌ ºÎºĞ¿¡¼­¸¸ 4KB ÀÌ»ó µ¥ÀÌÅÍ°¡ »ı¼ºµÈ´Ù.
+	//ì´ ë¶€ë¶„ì—ì„œë§Œ 4KB ì´ìƒ ë°ì´í„°ê°€ ìƒì„±ëœë‹¤.
 	for(int i=0;i<1000;i++){%>
 		1234
 	<%
