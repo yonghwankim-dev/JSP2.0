@@ -1,21 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-Å¬¶óÀÌ¾ðÆ® IP = <%= request.getRemoteAddr() %><br>
-¿äÃ»Á¤º¸±æÀÌ = <%= request.getContentLength() %><br>
-¿äÃ»Á¤º¸ ÀÎÄÚµù = <%= request.getCharacterEncoding() %><br>
-¿äÃ»Á¤º¸ ÄÁÅÙÆ® Å¸ÀÔ = <%= request.getContentType() %><br>
-¿äÃ»Á¤º¸ ÇÁ·ÎÅäÄÝ = <%= request.getProtocol() %><br>
-¿äÃ»Á¤º¸ Àü¼Û ¹æ½Ä = <%= request.getMethod() %><br>
-¿äÃ» URL = <%= request.getRequestURI() %><br>
-ÄÁÅØ½ºÆ® °æ·Î = <%= request.getContextPath() %><br>
-¼­¹öÀÌ¸§ = <%= request.getServerName() %><br>
-¼­¹öÆ÷Æ® = <%= request.getServerPort() %><br>
+í´ë¼ì´ì–¸íŠ¸ IP = <%= request.getRemoteAddr() %><br>
+ìš”ì²­ì •ë³´ê¸¸ì´ = <%= request.getContentLength() %><br>
+ìš”ì²­ì •ë³´ ì¸ì½”ë”© = <%= request.getCharacterEncoding() %><br>
+ìš”ì²­ì •ë³´ ì»¨í…íŠ¸ íƒ€ìž… = <%= request.getContentType() %><br>
+ìš”ì²­ì •ë³´ í”„ë¡œí† ì½œ = <%= request.getProtocol() %><br>
+ìš”ì²­ì •ë³´ ì „ì†¡ ë°©ì‹ = <%= request.getMethod() %><br>
+ìš”ì²­ URL = <%= request.getRequestURI() %><br>
+ì»¨í…ìŠ¤íŠ¸ ê²½ë¡œ = <%= request.getContextPath() %><br>
+ì„œë²„ì´ë¦„ = <%= request.getServerName() %><br>
+ì„œë²„í¬íŠ¸ = <%= request.getServerPort() %><br>
 </body>
 </html>

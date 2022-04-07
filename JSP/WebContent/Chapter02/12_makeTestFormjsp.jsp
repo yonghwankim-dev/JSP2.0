@@ -1,22 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-Æû¿¡ µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇÑ ÈÄ 'Àü¼Û' ¹öÆ°À» Å¬¸¯ÇÏ¼¼¿ä.
-<form action="./13_viewParameter.jsp" method="post"><!--ÀÔ·ÂÇÑ µ¥ÀÌÅÍ¸¦ Àü´ÞÇÑ jspÆäÀÌÁö¸¦ ./13_viewParameter.jsp·Î ÁöÁ¤ÇÑ´Ù. post ¹æ½ÄÀ¸·Î µ¥ÀÌÅÍ¸¦ Àü¼ÛÇÑ´Ù. -->
-ÀÌ¸§: <input type="text" name ="name" size="10"><br> <!--ÀÌ¸§ÀÌ nameÀÎ ¿äÃ» ÆÄ¶ó¹ÌÅÍ ÀÔ·Â Ä­ »ý¼º -->
-ÁÖ¼Ò: <input type="text" name="address" size="30"><br>	<!--ÀÌ¸§ÀÌ addressÀÎ ¿äÃ» ÆÄ¶ó¹ÌÅÍ ÀÔ·Â Ä­ »ý¼º -->
-ÁÁ¾ÆÇÏ´Â µ¿¹°:
-	<input type="checkbox" name="pet" value="dog">°­¾ÆÁö
-	<input type="checkbox" name="pet" value="cat">°í¾çÀÌ
-	<input type="checkbox" name="pet" value="pig">µÅÁö
+í¼ì— ë°ì´í„°ë¥¼ ìž…ë ¥í•œ í›„ 'ì „ì†¡' ë²„íŠ¼ì„ í´ë¦­í•˜ì„¸ìš”.
+<form action="./13_viewParameter.jsp" method="post">	<!--ìž…ë ¥í•œ ë°ì´í„°ë¥¼ ì „ë‹¬í•œ jspíŽ˜ì´ì§€ë¥¼ ./13_viewParameter.jspë¡œ ì§€ì •í•œë‹¤. post ë°©ì‹ìœ¼ë¡œ ë°ì´í„°ë¥¼ ì „ì†¡í•œë‹¤. -->
+ì´ë¦„: <input type="text" name ="name" size="10"><br> 		<!--ì´ë¦„ì´ nameì¸ ìš”ì²­ íŒŒë¼ë¯¸í„° ìž…ë ¥ ì¹¸ ìƒì„± -->
+ì£¼ì†Œ: <input type="text" name="address" size="30"><br>	<!--ì´ë¦„ì´ addressì¸ ìš”ì²­ íŒŒë¼ë¯¸í„° ìž…ë ¥ ì¹¸ ìƒì„± -->
+ì¢‹ì•„í•˜ëŠ” ë™ë¬¼:
+	<input type="checkbox" name="pet" value="dog">ê°•ì•„ì§€
+	<input type="checkbox" name="pet" value="cat">ê³ ì–‘ì´
+	<input type="checkbox" name="pet" value="pig">ë¼ì§€
 <br>
-<input type="submit" value="Àü¼Û">
+<input type="submit" value="ì „ì†¡">
 </form>
 
 </body>

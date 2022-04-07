@@ -1,29 +1,29 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page import="java.util.Enumeration" %>
     <%@ page import="java.util.Map" %>
     <%
-    //¿äÃ» ÆÄ¶ó¹ÌÅÍÀÇ Ä³¸¯ÅÍ ÀÎÄÚµùÀ» ÇÑ±Û·Î ÁöÁ¤ÇÑ´Ù. ÀÌ·¸°Ô ÇØ¾ß ÇÑ±ÛÀ» ¿Ã¹Ù¸£°Ô Ã³¸®ÇÒ ¼ö ÀÖ´Ù.
-    	request.setCharacterEncoding("euc-kr");
+    //ìš”ì²­ íŒŒë¼ë¯¸í„°ì˜ ìºë¦­í„° ì¸ì½”ë”©ì„ í•œê¸€ë¡œ ì§€ì •í•œë‹¤. ì´ë ‡ê²Œ í•´ì•¼ í•œê¸€ì„ ì˜¬ë°”ë¥´ê²Œ ì²˜ë¦¬í•  ìˆ˜ ìˆë‹¤.
+    	request.setCharacterEncoding("UTF-8");
     %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>¿äÃ» ÆÄ¶ó¹ÌÅÍ Ãâ·Â</title>
+<meta charset="UTF-8">
+<title>ìš”ì²­ íŒŒë¼ë¯¸í„° ì¶œë ¥</title>
 </head>
 <body>
-<!-- request.getParameter()¸Ş¼Òµå¸¦ »ç¿ëÇÏ¿© nameÆÄ¶ó¹ÌÅÍ¿Í addressÆÄ¶ó¹ÌÅÍÀÇ °ªÀ» Ãâ·ÂÇÑ´Ù. -->
-<b>request.getParameter() ¸Ş¼Òµå »ç¿ë</b><br>
-name ÆÄ¶ó¹ÌÅÍ = <%=request.getParameter("name") %><br>
-address ÆÄ¶ó¹ÌÅÍ = <%=request.getParameter("address") %><br>
+<!-- request.getParameter()ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•˜ì—¬ nameíŒŒë¼ë¯¸í„°ì™€ addressíŒŒë¼ë¯¸í„°ì˜ ê°’ì„ ì¶œë ¥í•œë‹¤. -->
+<b>request.getParameter() ë©”ì†Œë“œ ì‚¬ìš©</b><br>
+name íŒŒë¼ë¯¸í„° = <%=request.getParameter("name") %><br>
+address íŒŒë¼ë¯¸í„° = <%=request.getParameter("address") %><br>
 <p>
-<b>request.getParameterValues() ¸Ş¼Òµå »ç¿ë</b><br>
+<b>request.getParameterValues() ë©”ì†Œë“œ ì‚¬ìš©</b><br>
 <%
 /*
-	request.getParameterVlues() ¸Ş¼Òµå´Â StringÀÇ ¹è¿­(String[])À» ¸®ÅÏÇÑ´Ù.
-	¹è¿­ÀÇ Ã¹¹øÂ° ¿ø¼Ò¸¦ »ç¿ëÇÒ ¶§¿¡´Â ¹è¿­º¯¼ö[0]ÀÇ ÇüÅÂ¸¦ »ç¿ëÇÑ´Ù.
-	¹è¿­ º¯¼ö¸íÀ» values·Î ÇÏ¿´À¸¹Ç·Î, values[0], values[2]¿Í °°ÀÌ ÆÄ¶ó¹ÌÅÍ°ª¿¡ Á¢±ÙÇÑ´Ù.
+	request.getParameterVlues() ë©”ì†Œë“œëŠ” Stringì˜ ë°°ì—´(String[])ì„ ë¦¬í„´í•œë‹¤.
+	ë°°ì—´ì˜ ì²«ë²ˆì§¸ ì›ì†Œë¥¼ ì‚¬ìš©í•  ë•Œì—ëŠ” ë°°ì—´ë³€ìˆ˜[0]ì˜ í˜•íƒœë¥¼ ì‚¬ìš©í•œë‹¤.
+	ë°°ì—´ ë³€ìˆ˜ëª…ì„ valuesë¡œ í•˜ì˜€ìœ¼ë¯€ë¡œ, values[0], values[2]ì™€ ê°™ì´ íŒŒë¼ë¯¸í„°ê°’ì— ì ‘ê·¼í•œë‹¤.
 */
 	String[] values = request.getParameterValues("pet");
 	if(values!=null)
@@ -38,11 +38,11 @@ address ÆÄ¶ó¹ÌÅÍ = <%=request.getParameter("address") %><br>
 %>
 <p>
 
-<b>request.getParameterNames() ¸Ş¼Òµå »ç¿ë</b><br>
+<b>request.getParameterNames() ë©”ì†Œë“œ ì‚¬ìš©</b><br>
 <%
 /*
-	ÆÄ¶ó¹ÌÅÍÀÇ ÀÌ¸§À» Ãâ·ÂÇÑ´Ù.
-	ÀÌ ÄÚµå°¡ request.getParameterNames() ¸Ş¼Òµå¸¦ »ç¿ëÇÏ´Â ±âº»ÇüÅÂÀÔ´Ï´Ù.
+	íŒŒë¼ë¯¸í„°ì˜ ì´ë¦„ì„ ì¶œë ¥í•œë‹¤.
+	ì´ ì½”ë“œê°€ request.getParameterNames() ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•˜ëŠ” ê¸°ë³¸í˜•íƒœì…ë‹ˆë‹¤.
 */
 	Enumeration e = request.getParameterNames();
 	while(e.hasMoreElements())
@@ -55,11 +55,11 @@ address ÆÄ¶ó¹ÌÅÍ = <%=request.getParameter("address") %><br>
 %>
 <p>
 
-<b>request.getParameterMap() ¸Ş¼Òµå »ç¿ë</b><br>
+<b>request.getParameterMap() ë©”ì†Œë“œ ì‚¬ìš©</b><br>
 <%
 /*
-	request.getParameterMap()Àº ÀÚ¹ÙÀÇ MapÀ» »ç¿ëÇÏ¿© ÆÄ¶ó¹ÌÅÍ ÀÌ¸§°ú ÆÄ¶ó¹ÌÅÍ °ªÀ» ¸®ÅÏÇÑ´Ù.
-	ÀÌ Map¿¡´Â <ÆÄ¶ó¹ÌÅÍÀÌ¸§, ÆÄ¶ó¹ÌÅÍ°ª ¹è¿­>ÀÌ ½ÖÀ» ÀÌ·ç°í ÀÖ´Ù.
+	request.getParameterMap()ì€ ìë°”ì˜ Mapì„ ì‚¬ìš©í•˜ì—¬ íŒŒë¼ë¯¸í„° ì´ë¦„ê³¼ íŒŒë¼ë¯¸í„° ê°’ì„ ë¦¬í„´í•œë‹¤.
+	ì´ Mapì—ëŠ” <íŒŒë¼ë¯¸í„°ì´ë¦„, íŒŒë¼ë¯¸í„°ê°’ ë°°ì—´>ì´ ìŒì„ ì´ë£¨ê³  ìˆë‹¤.
 */
 	Map parameterMap = request.getParameterMap();
 	String[] nameParam = (String[])parameterMap.get("name");
