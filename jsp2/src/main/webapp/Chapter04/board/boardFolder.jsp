@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-웹 어플리케이션 콘텍스트 경로:"<%= request.getContextPath() %>"
-
+	hello boardFolder.jsp
 </body>
 </html>
