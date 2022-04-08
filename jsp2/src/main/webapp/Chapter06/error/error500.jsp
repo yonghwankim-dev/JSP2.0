@@ -1,24 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%
-    	/*ÀÀ´ä ÄÚµå¸¦ 200À¸·Î ÁöÁ¤ÇÑ´Ù. ÀÌ·¸°Ô ÀÀ´ä ÄÚµå¸¦ 200À¸·Î ÁöÁ¤ÇÏÁö ¾ÊÀ¸¸é
-    	  À¥ ºê¶ó¿ìÀú¿¡´Â 404 ÀÀ´ä ÄÚµå°¡ Àü´ÞµÇ¸ç, ÀÌ °æ¿ì À¥ ºê¶ó¿ìÀú´Â ÀÚÃ¼ÀûÀ¸·Î
-    	  404 ¿¡·¯ÀÏ ¶§ º¸¿©ÁÖ´Â È­¸éÀ» Ãâ·ÂÇÑ´Ù. µû¶ó¼­ error404.jspÀÇ Ãâ·Â
-    	  °á°ú°¡ À¥ ºê¶ó¿ìÀú¿¡ ±×´ë·Î Ãâ·ÂµÇµµ·Ï ÇÏ±â À§ÇØ¼­´Â ÀÀ´ä ÄÚµå¸¦ 200À¸·Î ÁöÁ¤ÇØ
-    	  ÁÖ¾î¾ß ÇÑ´Ù.(SC_OKÀÇ °ªÀÌ 200ÀÌ´Ù.)
-    	  ÀÌ °æ¿ì´Â ÅèÄ¹ÀÇ °æ¿ì¿¡ ÇØ´çÇÏ¸ç »ç¿ëÇÏ´Â À¥ ÄÜÅ×ÀÌ³Ê¿¡ µû¶ó¼­ ÀÌ·¸°Ô ¾È ÇØ Áàµµ
-    	  ¿øÇÏ´Â °á°ú°¡ Ãâ·ÂµÇ±âµµ ÇÑ´Ù.*/
+    	/*ì‘ë‹µ ì½”ë“œë¥¼ 200ìœ¼ë¡œ ì§€ì •í•œë‹¤. ì´ë ‡ê²Œ ì‘ë‹µ ì½”ë“œë¥¼ 200ìœ¼ë¡œ ì§€ì •í•˜ì§€ ì•Šìœ¼ë©´
+    	  ì›¹ ë¸Œë¼ìš°ì €ì—ëŠ” 404 ì‘ë‹µ ì½”ë“œê°€ ì „ë‹¬ë˜ë©°, ì´ ê²½ìš° ì›¹ ë¸Œë¼ìš°ì €ëŠ” ìžì²´ì ìœ¼ë¡œ
+    	  404 ì—ëŸ¬ì¼ ë•Œ ë³´ì—¬ì£¼ëŠ” í™”ë©´ì„ ì¶œë ¥í•œë‹¤. ë”°ë¼ì„œ error404.jspì˜ ì¶œë ¥
+    	  ê²°ê³¼ê°€ ì›¹ ë¸Œë¼ìš°ì €ì— ê·¸ëŒ€ë¡œ ì¶œë ¥ë˜ë„ë¡ í•˜ê¸° ìœ„í•´ì„œëŠ” ì‘ë‹µ ì½”ë“œë¥¼ 200ìœ¼ë¡œ ì§€ì •í•´
+    	  ì£¼ì–´ì•¼ í•œë‹¤.(SC_OKì˜ ê°’ì´ 200ì´ë‹¤.)
+    	  ì´ ê²½ìš°ëŠ” í†°ìº£ì˜ ê²½ìš°ì— í•´ë‹¹í•˜ë©° ì‚¬ìš©í•˜ëŠ” ì›¹ ì½˜í…Œì´ë„ˆì— ë”°ë¼ì„œ ì´ë ‡ê²Œ ì•ˆ í•´ ì¤˜ë„
+    	  ì›í•˜ëŠ” ê²°ê³¼ê°€ ì¶œë ¥ë˜ê¸°ë„ í•œë‹¤.*/
     	response.setStatus(HttpServletResponse.SC_OK);
     %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>500 ¿¡·¯ ¹ß»ý</title>
+<meta charset="UTF-8">
+<title>500 ì—ëŸ¬ ë°œìƒ</title>
 </head>
 <body>
-<b>¿äÃ» Ã³¸® °úÁ¤¿¡¼­ ¿¹¿Ü°¡ ¹ß»ýÇß½À´Ï´Ù.</b>
+<b>ìš”ì²­ ì²˜ë¦¬ ê³¼ì •ì—ì„œ ì˜ˆì™¸ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤.</b>
 <br>
-ºü¸¥ ½Ã°£ ³»¿¡ ¹®Á¦¸¦ ÇØ°áÇÏµµ·Ï ÇÏ°Ú½À´Ï´Ù.
+ë¹ ë¥¸ ì‹œê°„ ë‚´ì— ë¬¸ì œë¥¼ í•´ê²°í•˜ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤.
 </body>
 </html>

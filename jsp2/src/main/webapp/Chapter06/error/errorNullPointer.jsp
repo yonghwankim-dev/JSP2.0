@@ -1,15 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%
     	response.setStatus(HttpServletResponse.SC_OK);
     %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<b>╪╜╨Я╫╨ цЁ╦╝ ╟За╓©║╪╜ Ён(NULL) ©╧©э╟║ ╧ъ╩Щго©╢╫ю╢о╢ы.</b>
+<b>Л└°К╧└Л┼╓ Л╡≤К╕╛ ЙЁ╪Л═∙Л≈░Л└° К└░(NULL) Л≤┬Л≥╦Й╟─ К╟°Л┐²М∙≤Л≤─Л┼╣К▀┬К▀╓.</b>
 </body>
 </html>

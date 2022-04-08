@@ -1,17 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-    <%@ page errorPage = "error/viewErrorMessage.jsp" %><!-- ¿¡·¯¸¦ ¹ß»ıÇÒ °æ¿ì error/viewErrorMessage.jsp 
-    														ÆäÀÌÁö¸¦ º¸¿©ÁÖµµ·Ï ÁöÁ¤ÇÑ´Ù. -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page errorPage = "error/viewErrorMessage.jsp" %><!-- ì—ëŸ¬ë¥¼ ë°œìƒí•  ê²½ìš° error/viewErrorMessage.jsp 
+    														í˜ì´ì§€ë¥¼ ë³´ì—¬ì£¼ë„ë¡ ì§€ì •í•œë‹¤. -->
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<%/*name ÆÄ¶ó¹ÌÅÍÀÇ °ªÀ» ´ë¹®ÀÚ·Î º¯È¯ÇÏ¿© Ãâ·ÂÇÑ´Ù.
-		name ÆÄ¶ó¹ÌÅÍ°¡ Á¸ÀçÇÏÁö ¾ÊÀ» °æ¿ì ¿¹¿Ü°¡ ¹ß»ıÇÑ´Ù.
+	<%/*name íŒŒë¼ë¯¸í„°ì˜ ê°’ì„ ëŒ€ë¬¸ìë¡œ ë³€í™˜í•˜ì—¬ ì¶œë ¥í•œë‹¤.
+		name íŒŒë¼ë¯¸í„°ê°€ ì¡´ì¬í•˜ì§€ ì•Šì„ ê²½ìš° ì˜ˆì™¸ê°€ ë°œìƒí•œë‹¤.
 	*/ %>
-	name ÆÄ¶ó¹ÌÅÍ °ª : <%= request.getParameter("name").toUpperCase() %>
+	name íŒŒë¼ë¯¸í„° ê°’ : <%= request.getParameter("name").toUpperCase() %>
 </body>
 </html>
