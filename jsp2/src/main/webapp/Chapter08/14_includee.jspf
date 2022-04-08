@@ -1,6 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-includer.jsp¿¡¼­ ÁöÁ¤ÇÑ ¹øÈ£: <%=number%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+includer.jspì—ì„œ ì§€ì •í•œ ë²ˆí˜¸: <%=number%>
 <p>
 <%
 	String dataFolder = "c:\\data";

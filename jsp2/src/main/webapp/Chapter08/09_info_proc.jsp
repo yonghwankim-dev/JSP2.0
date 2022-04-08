@@ -1,14 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%
-//ÅÛÇÃ¸´ÀÎ template.jsp¿¡¼­ ÇÊ¿ä·Î ÇÏ´Â request ±âº» °´Ã¼ÀÇ "PAGETITLE" ¼Ó¼ºÀÇ °ªÀ» ÁöÁ¤ÇÑ´Ù.
-	//request.setAttribute("PAGETITLE", "Á¤º¸º¸±â");
-	request.setCharacterEncoding("EUC-KR");
+//í…œí”Œë¦¿ì¸ template.jspì—ì„œ í•„ìš”ë¡œ í•˜ëŠ” request ê¸°ë³¸ ê°ì²´ì˜ "PAGETITLE" ì†ì„±ì˜ ê°’ì„ ì§€ì •í•œë‹¤.
+	//request.setAttribute("PAGETITLE", "ì •ë³´ë³´ê¸°");
+	request.setCharacterEncoding("UTF-8");
 %>
- <!-- ÅÛÇÃ¸´ÀÎ template.jsp¸¦ »ç¿ëÇÑ´Ù. -->
- <!-- ÅÛÇÃ¸´ÀÎ template.jsp¿¡¼­ ³»¿ë ºÎºÐÀ» Ãâ·ÂÇÒ ¶§ ÇÊ¿ä·Î ÇÏ´Â "CONTENTPAGE"ÆÄ¶ó¹ÌÅÍ¸¦ ÁöÁ¤ÇÑ´Ù. -->
+ <!-- í…œí”Œë¦¿ì¸ template.jspë¥¼ ì‚¬ìš©í•œë‹¤. -->
+ <!-- í…œí”Œë¦¿ì¸ template.jspì—ì„œ ë‚´ìš© ë¶€ë¶„ì„ ì¶œë ¥í•  ë•Œ í•„ìš”ë¡œ í•˜ëŠ” "CONTENTPAGE"íŒŒë¼ë¯¸í„°ë¥¼ ì§€ì •í•œë‹¤. -->
 <jsp:forward page="/Chapter08/08_template.jsp">
 	<jsp:param name="CONTENTPAGE" value="/Chapter08/10_info_view.jsp"/>
-	<jsp:param name="PAGETITLE" value="Á¤º¸º¸±â"/>		
+	<jsp:param name="PAGETITLE" value="ì •ë³´ë³´ê¸°"/>		
 </jsp:forward>
  

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%
     	
     	String pageTitle = (String)request.getParameter("PAGETITLE");
@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title><%= pageTitle %></title>
 </head>
 <body>
@@ -26,10 +26,10 @@
 </td>
 
 <td width="300" valign="top">
-	<!-- ³»¿ëºÎºÐ: ½ÃÀÛ -->
+	<!-- ë‚´ìš©ë¶€ë¶„: ì‹œìž‘ -->
 	<jsp:include page="<%= contentPage %>" flush="false"/>
 	<br><br><br>
-	<!-- ³»¿ëºÎºÐ: ³¡ -->
+	<!-- ë‚´ìš©ë¶€ë¶„: ë -->
 </td>
 </tr>
 <td colspan="2">

@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <table width="100%" border="1" cellpadding="0" cellspacing="0">
 <tr>
-	<td>Á¦Ç°¹øÈ£</td><td>XXXX</td>
+	<td>ì œí’ˆë²ˆí˜¸</td><td>XXXX</td>
 </tr>
 <tr>
-	<td>°¡°İ</td><td>10,000¿ø</td>
+	<td>ê°€ê²©</td><td>10,000ì›</td>
 </tr>
 </table>
 <jsp:include page ="07_infoSub.jsp" flush="false">

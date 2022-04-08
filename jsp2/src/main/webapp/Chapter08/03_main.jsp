@@ -7,11 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	int number = 10;
-%>
-<!-- includee.jspf 파일의 내용이 그대로 포함된다. -->
-<%@ include file="/Chapter08/14_includee.jspf" %>
-공통 변수 DATAFOLDER = "<%=dataFolder %>"
+<!-- 출력 내용 A -->
+main.jsp에서 생성한 내용
+
+<!-- 출력 내용 B -->
+<p>sub.jsp에서 생성한 내용</p>
+
+<!-- 출력 내용 C -->
+include 이후의 내용
 </body>
 </html>

@@ -1,22 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%
-	String type = request.getParameter("type");	//info.jsp¿¡¼­ Àü´ÞÇÑ type ÆÄ¶ó¹ÌÅÍÀÇ °ªÀ» ÀÐ¾î¿Â´Ù.
+	String type = request.getParameter("type");	//info.jspì—ì„œ ì „ë‹¬í•œ type íŒŒë¼ë¯¸í„°ì˜ ê°’ì„ ì½ì–´ì˜¨ë‹¤.
 	if(type != null){
 %>
 <br>
 <table width="100%" border="1" cellpadding="0" cellspacing="0">
 <tr>
-	<td>Å¸ÀÔ</td>
+	<td>íƒ€ìž…</td>
 	<td><b><%=type %></b></td>
 </tr>
 <tr>
-	<td>Æ¯Â¡</td>
+	<td>íŠ¹ì§•</td>
 	<td>
 	<% if(type.equals("A")){ %>
-	°­ÇÑ ³»±¸¼º
+	ê°•í•œ ë‚´êµ¬ì„±
 	<% }else if(type.equals("B")){ %>
-	¶Ù¾î³­ ´ëÃ³ ´É·Â
+	ë›°ì–´ë‚œ ëŒ€ì²˜ ëŠ¥ë ¥
 	<%} %>
 	</td>
 </tr>

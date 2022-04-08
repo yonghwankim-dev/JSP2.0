@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -20,10 +20,10 @@
 </td>
 
 <td width="300" valign="top">
-	<!-- ³»¿ëºÎºĞ: ½ÃÀÛ -->
-	·¹ÀÌ¾Æ¿ô1
+	<!-- ë‚´ìš©ë¶€ë¶„: ì‹œì‘ -->
+	ë ˆì´ì•„ì›ƒ1
 	<br><br><br>
-	<!-- ³»¿ëºÎºĞ: ³¡ -->
+	<!-- ë‚´ìš©ë¶€ë¶„: ë -->
 </td>
 </tr>
 <td colspan="2">
