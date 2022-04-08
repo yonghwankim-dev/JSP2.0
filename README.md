@@ -27,6 +27,14 @@
 5. [\[JSP\] 5.5 JSP 기본 객체와 영역](https://yonghwankim-dev.tistory.com/288)
 6. [\[JSP\] 5.6 JSP 기본 객체의 속성(Attribute) 사용하기](https://yonghwankim-dev.tistory.com/289)
 
+### Chapter 6. JSP 페이지의 에러 처리
+
+1. [\[JSP\] 6.1 에러 페이지 지정하기](https://yonghwankim-dev.tistory.com/290)
+2. [\[JSP\] 6.2 에러 페이지 작성하기](https://yonghwankim-dev.tistory.com/291)
+3. [\[JSP\] 6.3 에러 코드별 에러 페이지 작성하기](https://yonghwankim-dev.tistory.com/292)
+4. [\[JSP\] 6.4 예외 종류별 에러 페이지 지정하기](https://yonghwankim-dev.tistory.com/293)
+5. [\[JSP\] 6.5 에러 페이지의 우선 순위 및 에러 페이지 지정 형태](https://yonghwankim-dev.tistory.com/294)
+
 
 
 
