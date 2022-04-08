@@ -18,6 +18,19 @@
 2. [\[JSP\] 4.2 출력 버퍼](https://yonghwankim-dev.tistory.com/282)
 3. [\[JSP\] 4.3 어플리케이션의 폴더 구조](https://yonghwankim-dev.tistory.com/283)
 
+### Chapter 5. 기본 객체와 영역
+
+1. [\[JSP\] 5.1 기본 객체](https://yonghwankim-dev.tistory.com/284)
+2. [\[JSP\] 5.2 기본 객체: out](https://yonghwankim-dev.tistory.com/285)
+3. [\[JSP\] 5.3 기본 객체: pageContext](https://yonghwankim-dev.tistory.com/286)
+4. [\[JSP\] 5.4 기본 객체: application](https://yonghwankim-dev.tistory.com/287)
+5. [\[JSP\] 5.5 JSP 기본 객체와 영역](https://yonghwankim-dev.tistory.com/288)
+6. [\[JSP\] 5.6 JSP 기본 객체의 속성(Attribute) 사용하기](https://yonghwankim-dev.tistory.com/289)
+
+
+
+
+
 
 
 
