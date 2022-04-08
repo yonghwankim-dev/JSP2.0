@@ -1,30 +1,30 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
 	/*
-		pageContext.getRequest()ÀÇ ¸®ÅÏÅ¸ÀÔÀº ServletRequestÀÎµ¥, JSP ÆäÀÌÁö°¡ HTTP ¿äÃ»À» Ã³¸®ÇÏ¹Ç·Î
-		HttpServletRequest·Î Çüº¯È¯
+		pageContext.getRequest()ì˜ ë¦¬í„´íƒ€ì…ì€ ServletRequestì¸ë°, JSP í˜ì´ì§€ê°€ HTTP ìš”ì²­ì„ ì²˜ë¦¬í•˜ë¯€ë¡œ
+		HttpServletRequestë¡œ í˜•ë³€í™˜
 	*/ 
 	HttpServletRequest httpRequest = (HttpServletRequest)pageContext.getRequest();
 %>
-request ±âº» °´Ã¼¿Í pageContext.getRequest()ÀÇ µ¿ÀÏ ¿©ºÎ:
+request ê¸°ë³¸ ê°ì²´ì™€ pageContext.getRequest()ì˜ ë™ì¼ ì—¬ë¶€:
 <%= 
-//request ±âº» °´Ã¼¿Í pageContext.getRequest()ÀÇ ¸®ÅÏ °ªÀÌ °°Àº °´Ã¼ÀÎÁö¸¦ °Ë»çÇÑ´Ù.
+//request ê¸°ë³¸ ê°ì²´ì™€ pageContext.getRequest()ì˜ ë¦¬í„´ ê°’ì´ ê°™ì€ ê°ì²´ì¸ì§€ë¥¼ ê²€ì‚¬í•œë‹¤.
 request==httpRequest
 %>
 
 <br>
-pageContext.getOut() ¸Ş¼Òµå¸¦ »ç¿ëÇÑ µ¥ÀÌÅÍ Ãâ·Â:
+pageContext.getOut() ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•œ ë°ì´í„° ì¶œë ¥:
 <%
-	//pageContext.getOut().println()Àº out.println()°ú µ¿ÀÏÇÏ´Ù.
-	pageContext.getOut().println("¾È³çÇÏ¼¼¿ä!");
+	//pageContext.getOut().println()ì€ out.println()ê³¼ ë™ì¼í•˜ë‹¤.
+	pageContext.getOut().println("ì•ˆë…•í•˜ì„¸ìš”!");
 
 %>
 </body>

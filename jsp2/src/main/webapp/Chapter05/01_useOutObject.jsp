@@ -1,19 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
-	out.println("¾È³çÇÏ¼¼¿ä?");
+	out.println("ì•ˆë…•í•˜ì„¸ìš”?");
 %>
 <br>
-out ±âº» °´Ã¼¸¦ »ç¿ëÇÏ¿©
+out ê¸°ë³¸ ê°ì²´ë¥¼ ì‚¬ìš©í•˜ì—¬
 <%
-	out.println("Ãâ·ÂÇÑ °á°úÀÔ´Ï´Ù.");
+	out.println("ì¶œë ¥í•œ ê²°ê³¼ì…ë‹ˆë‹¤.");
 %>
 
 </body>

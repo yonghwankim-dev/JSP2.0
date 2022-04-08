@@ -1,15 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-    <%@ page buffer="8kb" autoFlush="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>서버 정보 출력</title>
 </head>
 <body>
-����ũ�� : <%= out.getBufferSize() %><br>
-����ũ�� : <%= out.getRemaining() %><br>
-auto flash : <%= out.isAutoFlush() %><br>
+서버 정보 : 			<%= application.getServerInfo() %><br>
+서블릿 규약 메이저 버전 : 	<%= application.getMajorVersion() %><br>
+서블릿 규약 마이너 버전 : 	<%= application.getMinorVersion() %><br>
 </body>
 </html>

@@ -1,16 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page buffer="8kb" autoFlush="false" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	application.log("·Î±× ¸Ş½ÃÁö ±â·Ï");
-%>
-·Î±× ¸Ş½ÃÁö¸¦ ±â·ÏÇÕ´Ï´Ù.
+	ë²„í¼ í¬ê¸°: 	<%= out.getBufferSize() %><br> 	<!-- ë²„í¼ í¬ê¸° ì¶œë ¥      -->
+	ë‚¨ì€ í¬ê¸°: 	<%= out.getRemaining() %><br>	<!-- ë²„í¼ì˜ ë‚¨ì€ í¬ê¸° ì¶œë ¥ -->
+	auto flush: <%= out.isAutoFlush() %><br> 	<!-- ìë™ í”ŒëŸ¬ì‹œ ì—¬ë¶€ ì¶œë ¥ -->
 </body>
 </html>

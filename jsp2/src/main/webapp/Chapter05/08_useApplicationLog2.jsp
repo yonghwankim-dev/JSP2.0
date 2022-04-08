@@ -1,16 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-    <%@ page buffer="8kb" autoFlush="false" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
-	log("·Î±× ¸Ş½ÃÁö ±â·Ï2");	//JSP°¡ ÀÚÃ¼ÀúÀ¸·Î Á¦°øÇÏ´Â log() ¸Ş¼Òµå¸¦ »ç¿ëÇØµµ µÈ´Ù.
+	log("ë¡œê·¸ ë©”ì‹œì§€ ê¸°ë¡2");	//JSPê°€ ìì²´ì €ìœ¼ë¡œ ì œê³µí•˜ëŠ” log() ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•´ë„ ëœë‹¤.
 %>
-·Î±× ¸Ş½ÃÁö¸¦ ±â·ÏÇÕ´Ï´Ù.
+ë¡œê·¸ ë©”ì‹œì§€ë¥¼ ê¸°ë¡í•©ë‹ˆë‹¤.
 </body>
 </html>

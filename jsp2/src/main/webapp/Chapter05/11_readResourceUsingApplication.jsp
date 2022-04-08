@@ -1,21 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page import="java.io.*" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
-	String resourcePath = "/Chapter05/notice.txt";	//À¥ ¾îÇÃ¸®ÄÉÀÌ¼Ç ³»¿¡¼­ÀÇ °æ·Î »ç¿ë
+	String resourcePath = "/Chapter05/notice.txt";	//ì›¹ ì–´í”Œë¦¬ì¼€ì´ì…˜ ë‚´ì—ì„œì˜ ê²½ë¡œ ì‚¬ìš©
 %>
-ÀÚ¿øÀÇ ½ÇÁ¦ °æ·Î:<br>
+ìì›ì˜ ì‹¤ì œ ê²½ë¡œ:<br>
 <%= application.getRealPath(resourcePath)%>
 <br>
 ----------------------<br>
-<%= resourcePath %> ÀÇ ³»¿ë<br>
+<%= resourcePath %> ì˜ ë‚´ìš©<br>
 ----------------------<br>
 
 <%
@@ -31,7 +31,7 @@
 		}
 	}catch(IOException ex)
 	{
-		out.println("¿¹¿Ü ¹ß»ı: " + ex.getMessage());
+		out.println("ì˜ˆì™¸ ë°œìƒ: " + ex.getMessage());
 	}finally{
 		if(br!=null)
 			try{

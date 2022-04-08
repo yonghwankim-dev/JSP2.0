@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page import="java.io.*" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -14,21 +14,21 @@
 	int len=-1;
 	
 	try{
-		//notice.txt·ÎºÎÅÍ ³»¿ëÀ» ÀĞ¾î ¿À´Â FileReader»ı¼º(ÀÚ¿øÀÇ Àı´ë °æ·Î »ç¿ë)
-		fr = new FileReader("C:\\Users\\qkdlf\\java workspace backup\\JSP\\local_JSP\\WebContent\\Chapter05\\notice.txt");
+		//notice.txtë¡œë¶€í„° ë‚´ìš©ì„ ì½ì–´ ì˜¤ëŠ” FileReaderìƒì„±(ìì›ì˜ ì ˆëŒ€ ê²½ë¡œ ì‚¬ìš©)
+		fr = new FileReader("C:\\Users\\qkdlf\\Study\\Language\\jsp\\jsp2\\src\\main\\webapp\\Chapter05\\notice.txt");
 		
-		//notice.txt·ÎºÎÅÍ ÀĞ¾î ¿Â µ¥ÀÌÅÍ¸¦ out ±âº» °´Ã¼¸¦ »ç¿ëÇÏ¿© À¥ ºê¶ó¿ìÀú¿¡ Ãâ·ÂÇÑ´Ù.
+		//notice.txtë¡œë¶€í„° ì½ì–´ ì˜¨ ë°ì´í„°ë¥¼ out ê¸°ë³¸ ê°ì²´ë¥¼ ì‚¬ìš©í•˜ì—¬ ì›¹ ë¸Œë¼ìš°ì €ì— ì¶œë ¥í•œë‹¤.
 		
 		while((len=fr.read(buff))!=-1)
 		{
 			out.print(new String(buff,0,len));
 		}
 	}catch(IOException ex){
-		out.println("¿¹¿Ü ¹ß»ı: " + ex.getMessage());
+		out.println("ì˜ˆì™¸ ë°œìƒ: " + ex.getMessage());
 	}finally{
 		if(fr!=null)
 			try{
-				fr.close();	//¶óÀÎ 13¿¡¼­ »ı¼ºÇÑ FileReader¸¦ Á¾·áÇÑ´Ù.
+				fr.close();	//ë¼ì¸ 13ì—ì„œ ìƒì„±í•œ FileReaderë¥¼ ì¢…ë£Œí•œë‹¤.
 			}catch(IOException ex)
 			{
 			}

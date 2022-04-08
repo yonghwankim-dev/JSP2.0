@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%
     	String name = request.getParameter("name");
     	String value = request.getParameter("value");
@@ -12,22 +12,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
 	if(name != null && value !=null){
 %>
-application ±âº» °´Ã¼ÀÇ ¼Ó¼º ¼³Á¤:
+application ê¸°ë³¸ ê°ì²´ì˜ ì†ì„± ì„¤ì •:
 <%=name %> = <%=value %>
 <br>
-application ±âº» °´Ã¼ÀÇ name ¼Ó¼ºÀÇ °ª 
+application ê¸°ë³¸ ê°ì²´ì˜ name ì†ì„±ì˜ ê°’ 
 value : <%=application.getAttribute(name) %>
 <%
 	}else{
 %>
-application ±âº» °´Ã¼ÀÇ ¼Ó¼º ¼³Á¤ ¾ÈÇÔ
+application ê¸°ë³¸ ê°ì²´ì˜ ì†ì„± ì„¤ì • ì•ˆí•¨
 <%
 	}
 %>
