@@ -12,6 +12,17 @@
 4. [\[JSP\] 2.5 JSP 기본 객체 : request](https://yonghwankim-dev.tistory.com/279)
 5. [\[JSP\] 2.6 JSP 기본 객체 : response](https://yonghwankim-dev.tistory.com/280)
 
+### Chapter 4. 필수 이해 요소
+
+1. [\[JSP\] 4.1 JSP(Java Server Pages)의 처리 과정](https://yonghwankim-dev.tistory.com/281)
+2. [\[JSP\] 4.2 출력 버퍼](https://yonghwankim-dev.tistory.com/282)
+3. [\[JSP\] 4.3 어플리케이션의 폴더 구조](https://yonghwankim-dev.tistory.com/283)
+
+
+
+
+
+
 
 
 
