@@ -35,6 +35,12 @@
 4. [\[JSP\] 6.4 예외 종류별 에러 페이지 지정하기](https://yonghwankim-dev.tistory.com/293)
 5. [\[JSP\] 6.5 에러 페이지의 우선 순위 및 에러 페이지 지정 형태](https://yonghwankim-dev.tistory.com/294)
 
+### Chapter 7. 요청 흐름 제어하기
+
+1. [\[JSP\] 7.1 <jsp:forward> 액션 태그를 이용한 JSP 페이지 이동](https://yonghwankim-dev.tistory.com/295)
+2. [\[JSP\] 7.2 리다이렉트와 자바 스크립트를 이용한 페이지 이동](https://yonghwankim-dev.tistory.com/296)
+
+
 
 
 
