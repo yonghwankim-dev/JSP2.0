@@ -42,10 +42,10 @@
 
 ### Chapter 8. JSP 페이지 모듈화
 
-1. [\[JSP\] 8.1 <jsp:include> 액션 태그를 이용한 페이지 모듈화](https://yonghwankim-dev.tistory.com/297)
-2. [\[JSP\] 8.2 <jsp:include> 액션 태그를 이용한 레이아웃 템플릿](https://yonghwankim-dev.tistory.com/298)
+1. [\[JSP\] 8.1 \<jsp:include\> 액션 태그를 이용한 페이지 모듈화](https://yonghwankim-dev.tistory.com/297)
+2. [\[JSP\] 8.2 \<jsp:include\> 액션 태그를 이용한 레이아웃 템플릿](https://yonghwankim-dev.tistory.com/298)
 3. [\[JSP\] 8.3 include 디렉티브를 이용한 중복된 코드 삽입](https://yonghwankim-dev.tistory.com/299)
-4. [\[JSP\] 8.4 <jsp:include> 액션 태그와 include 디렉티브의 비교](https://yonghwankim-dev.tistory.com/300)
+4. [\[JSP\] 8.4 \<jsp:include\> 액션 태그와 include 디렉티브의 비교](https://yonghwankim-dev.tistory.com/300)
 
 
 
