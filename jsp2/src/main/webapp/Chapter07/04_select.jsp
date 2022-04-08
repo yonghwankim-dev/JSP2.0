@@ -1,20 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <form action="<%= request.getContextPath() %>/Chapter07/05_view.jsp">
-º¸°í½ÍÀº ÆäÀÌÁö ¼±ÅÃ:
+ë³´ê³ ì‹¶ì€ íŽ˜ì´ì§€ ì„ íƒ:
 	<select name="code">
-		<option value="A">AÆäÀÌÁö</option>
-		<option value="B">BÆäÀÌÁö</option>
-		<option value="C">CÆäÀÌÁö</option>
+		<option value="A">AíŽ˜ì´ì§€</option>
+		<option value="B">BíŽ˜ì´ì§€</option>
+		<option value="C">CíŽ˜ì´ì§€</option>
 	</select>
-	<input type="submit" value="ÀÌµ¿">
+	<input type="submit" value="ì´ë™">
 </form>
 </body>
 </html>

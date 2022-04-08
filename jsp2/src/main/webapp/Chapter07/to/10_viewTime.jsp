@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     <%@ page import="java.util.Calendar" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 <%
 	Calendar cal = (Calendar)request.getAttribute("time");
 %>
-ÇöÀç ½Ã°£Àº <%= cal.get(Calendar.HOUR) %>½Ã
-	<%= cal.get(Calendar.MINUTE) %>ºÐ
-	<%= cal.get(Calendar.SECOND) %>ÃÊ ÀÔ´Ï´Ù.
+í˜„ìž¬ ì‹œê°„ì€ <%= cal.get(Calendar.HOUR) %>ì‹œ
+	<%= cal.get(Calendar.MINUTE) %>ë¶„
+	<%= cal.get(Calendar.SECOND) %>ì´ˆ ìž…ë‹ˆë‹¤.
 </body>
 </html>
