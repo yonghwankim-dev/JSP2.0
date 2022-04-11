@@ -8,6 +8,6 @@
 </head>
 <body>
     
-    지금 시간은 <%= current_time %> 입니다.
+    지금 시간은 <%--<%= current_time --%>입니다.
 </body>
 </html>
