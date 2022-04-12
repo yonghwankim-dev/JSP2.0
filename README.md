@@ -47,6 +47,10 @@
 3. [\[JSP\] 8.3 include 디렉티브를 이용한 중복된 코드 삽입](https://yonghwankim-dev.tistory.com/299)
 4. [\[JSP\] 8.4 \<jsp:include\> 액션 태그와 include 디렉티브의 비교](https://yonghwankim-dev.tistory.com/300)
 
+### Chapter 9. 클라이언트와의 대화: 쿠키와 세션
+
+1. [\[JSP\] 9.1 쿠키 사용하기](https://yonghwankim-dev.tistory.com/301)
+2. [\[JSP\] 9.4 세션 사용하기: session 기본 객체](https://yonghwankim-dev.tistory.com/302)
 
 
 
