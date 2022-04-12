@@ -52,6 +52,9 @@
 1. [\[JSP\] 9.1 쿠키 사용하기](https://yonghwankim-dev.tistory.com/301)
 2. [\[JSP\] 9.4 세션 사용하기: session 기본 객체](https://yonghwankim-dev.tistory.com/302)
 
+### Chapter 10. JSP에서 자바빈 활용하기
+
+1. [\[JSP\] 10. JSP에서 자바빈 활용하기](https://yonghwankim-dev.tistory.com/303)
 
 
 
