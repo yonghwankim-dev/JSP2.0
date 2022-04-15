@@ -1,0 +1,31 @@
+<object class="org.apache.commons.dbcp2.PoolableConnectionFactory" xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+
+    <object class="org.apache.commons.dbcp2.DriverManagerConnectionFactory">
+        <string value="jdbc:oracle:thin:@localhost:1521/ORCLPDB"/>
+        <string value="JSP2"/>
+        <string value="JSP2"/>
+    </object>
+     
+    <object class="org.apache.commons.pool2.impl.GenericObjectPool">
+        <object class="org.apache.commons.pool2.PoolableObjectFactory" null="true" />
+        <int value="10" /> <!-- maxActive -->
+		<byte value="1" /> <!-- whenExhaustedAction -->
+		<long value="10000" /> <!-- maxWait -->
+		<int value="10" /> <!-- maxIdle -->
+		<int value="3" /> <!-- minIdle -->
+		<boolean value="true" /> <!-- testOnBorrow -->
+		<boolean value="true" /> <!-- testOnReturn -->
+		<long value="600000" /> <!-- timeBetweenEvctionRunsMillis -->
+		<int value="5" /> <!-- numTestsPerEvictionRun -->
+		<long value="3600000" /> <!-- minEvictableIdleTimeMillis -->
+		<boolean value="true" /> <!-- testWhileIdle -->
+    </object>
+     
+    <object class="org.apache.commons.pool2.KeyedObjectPoolFactory" null="true"/>
+     
+    <string null="true"/>	
+   
+    <boolean value="false"/>  
+     
+    <boolean value="true"/>	
+</object>
