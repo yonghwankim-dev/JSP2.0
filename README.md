@@ -56,6 +56,13 @@
 
 1. [\[JSP\] 10. JSP에서 자바빈 활용하기](https://yonghwankim-dev.tistory.com/303)
 
+### Chapter 11. 데이터베이스와 JSP
+
+1. [\[JSP\] 11.1 데이터베이스 기초](https://yonghwankim-dev.tistory.com/315)
+2. [\[JSP\] 11.2 오라클 PDB 서버에 접속하기](https://yonghwankim-dev.tistory.com/322)
+
+
+
 
 
 
