@@ -68,7 +68,11 @@
 
 1. [\[JSP\] 14. 표현 언어(Expression Language)](https://yonghwankim-dev.tistory.com/355)
 
+### Chapter 15. JSTL을 이용한 깔끔한 코드 만들기
 
+1. [\[JSP\] 15. JSTL(JSP Standard Tag Library) #1 JSTL이란 무엇인가?](https://yonghwankim-dev.tistory.com/460)
+2. [\[JSP\] 15. JSTL(JSP Standard Tag Library) #2 코어 태그(set, remove, if, choose, forEach, forTokens)](https://yonghwankim-dev.tistory.com/461)
+3. [\[JSP\] 15. JSTL(JSP Standard Tag Library) #2 코어 태그(import, url, redirect, out, catch)](https://yonghwankim-dev.tistory.com/462)
 
 
 
